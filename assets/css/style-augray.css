@@ -1,0 +1,23 @@
+/********************************
+    Styles for Augray QR
+    Author: Narendran
+********************************/
+:root {
+    --themeColor    : #49ccf8;
+    --themeColorRGB : 72, 203, 247;
+    --themeGrey     : #656565;
+}
+
+/** Common Overrides **/
+body {
+    margin: 0;
+}
+html, body, .main {
+    height: 100%;
+    overflow: hidden;
+}
+#modal_container {
+    width: 100%;
+    min-height: 360px;
+    height: 100%;
+}
